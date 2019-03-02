@@ -9,7 +9,6 @@ RUN apt-get update && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt /tmp
-COPY hoge.txt /tmp
 RUN pip install --upgrade pip
 RUN pip3 install -r /tmp/requirements.txt
 
