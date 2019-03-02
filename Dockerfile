@@ -14,7 +14,8 @@ RUN pip3 install -r /tmp/requirements.txt
 
 COPY . /work
 WORKDIR /work
+
 # Install jupyter lab extension
-RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
-RUN apt-get install -y nodejs
-RUN jupyter labextension install @jupyterlab/toc
+# RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
+# RUN apt-get install -y nodejs
+# RUN jupyter labextension install @jupyterlab/toc

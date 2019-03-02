@@ -1,5 +1,4 @@
 jupyter==1.0.0
-jupyterlab==0.35.4
 matplotlib==3.0.2
 numpy==1.15.4
 scipy==1.2.0
@@ -9,3 +8,5 @@ scikit-learn==0.20.1
 pydot==1.4.1
 graphviz==0.10.1
 tf-nightly-2.0-preview
+
+# jupyterlab==0.35.4
