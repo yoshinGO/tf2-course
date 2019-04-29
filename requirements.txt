@@ -7,6 +7,7 @@ pandas==0.23.4
 scikit-learn==0.20.1
 pydot==1.4.1
 graphviz==0.10.1
+tornado==5.1.1
 tf-nightly-2.0-preview
 
 # jupyterlab==0.35.4
